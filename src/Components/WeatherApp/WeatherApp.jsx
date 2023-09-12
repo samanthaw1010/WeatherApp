@@ -25,9 +25,19 @@ const WeatherApp = () => {
         <img src={cloud_icon} alt="" />
       </div>
 
-      <div className="weather-temp">24°</div>
+      <div className="weather-temp">24°C</div>
       {/* Window Alt + 0176 */}
       {/* iOS Shift + Option + 8*/}
+      <div className="weather-location">London</div>
+      <div className="data-container">
+        <div className="element">
+          <img src="" alt="" className="icon" />
+          <div className="data">
+            <div className="humidity-percent">64%</div>
+            <div className="text">Humidity</div>
+          </div>
+        </div>
+      </div>
 
     </div>
   );
