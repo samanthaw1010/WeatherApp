@@ -11,7 +11,7 @@ import wind_icon from '../Assets/wind.png';
 import humidity_icon from '../Assets/humidity.png';
 
 const WeatherApp = () => {
-  let api_key = "your_api_key_here";
+  let api_key = "2a292261bca98f4937be38c4be763e5a";
   // Let's go to https://home.openweathermap.org/ to get api key
 
   const [wicon, setWicon] = useState(cloud_icon);
